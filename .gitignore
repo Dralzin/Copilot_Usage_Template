@@ -1,0 +1,63 @@
+## .NET / Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+# [Rr]elease/
+# x64/
+# x86/
+# build/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+**/packages/repositories.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Build results
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+
+## User-specific
+*.rsuser
+*.pidb
+*.svclog
+*.scc
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.ionide/
+
+## OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Rider
+.idea/
+
+## Local settings / secrets
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.publishsettings
+launchSettings.json
