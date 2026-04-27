@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TenantId" xml:space="preserve">
+    <value>e3054106-a46a-4dc0-b86d-2ba84a24cdc4</value>
+    <comment>Azure AD / Entra ID tenant ID (GUID)</comment>
+  </data>
+  <data name="ClientId" xml:space="preserve">
+    <value />
+    <comment>App Registration client ID (GUID)</comment>
+  </data>
+  <data name="ClientSecret" xml:space="preserve">
+    <value />
+    <comment>App Registration client secret</comment>
+  </data>
+  <data name="SqlConnectionString" xml:space="preserve">
+    <value>Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Application Name="SQL Server Management Studio";Command Timeout=0</value>
+    <comment>Local SQL Server connection string. Used when InTesting is true. Overridden by RemoteSqlConnectionString when InTesting is false.</comment>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>D90</value>
+    <comment>Report period (D7, D30, D90, D180)</comment>
+  </data>
+  <data name="LogPath" xml:space="preserve">
+    <value />
+    <comment>Optional file path for log output (leave empty to disable file logging)</comment>
+  </data>
+  <data name="DatabaseName" xml:space="preserve">
+    <value>CopilotDB</value>
+    <comment>Optional local database name. When provided, overrides the database in SqlConnectionString. Overridden by RemoteDatabaseName when InTesting is false.</comment>
+  </data>
+  <data name="TableName" xml:space="preserve">
+    <value>CopilotUsageDetail</value>
+    <comment>Target table name where Copilot usage data will be stored</comment>
+  </data>
+  <data name="SqlUsername" xml:space="preserve">
+    <value />
+    <comment>Optional local SQL Server username. Leave empty to use Integrated Security. Overridden by RemoteSqlUsername when InTesting is false.</comment>
+  </data>
+  <data name="SqlPassword" xml:space="preserve">
+    <value />
+    <comment>Optional local SQL Server password. Leave empty to use Integrated Security. Overridden by RemoteSqlPassword when InTesting is false.</comment>
+  </data>
+  <data name="InTesting" xml:space="preserve">
+    <value>true</value>
+    <comment>Set to true to use local SQL settings, or false to use Remote SQL settings.</comment>
+  </data>
+  <data name="RemoteDatabaseName" xml:space="preserve">
+    <value />
+    <comment>Optional remote database name. Overrides DatabaseName when InTesting is false. When provided, overrides the database in RemoteSqlConnectionString.</comment>
+  </data>
+  <data name="RemoteSqlConnectionString" xml:space="preserve">
+    <value />
+    <comment>Remote SQL Server connection string. Overrides SqlConnectionString when InTesting is false.</comment>
+  </data>
+  <data name="RemoteSqlUsername" xml:space="preserve">
+    <value />
+    <comment>Optional remote SQL Server username. Overrides SqlUsername when InTesting is false. Leave empty to fall back to SqlUsername.</comment>
+  </data>
+  <data name="RemoteSqlPassword" xml:space="preserve">
+    <value />
+    <comment>Optional remote SQL Server password. Overrides SqlPassword when InTesting is false. Leave empty to use password provided in RemoteSqlConnectionString.</comment>
+  </data>
+  <data name="DashboardMode" xml:space="preserve">
+    <value>None</value>
+    <comment>Controls which dashboard is launched after data collection. Options: None, Console, Html, Blazor. None disables the dashboard.</comment>
+  </data>
+  <data name="RefreshIntervalHours" xml:space="preserve">
+    <value>.01</value>
+    <comment>Interval in hours between automatic data refresh cycles. Set to 0 to run once and exit. When greater than 0, the program runs continuously in the background.</comment>
+  </data>
+</root>
