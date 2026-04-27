@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="TenantId" xml:space="preserve">
-    <value>e3054106-a46a-4dc0-b86d-2ba84a24cdc4</value>
+    <value />
     <comment>Azure AD / Entra ID tenant ID (GUID)</comment>
   </data>
   <data name="ClientId" xml:space="preserve">
